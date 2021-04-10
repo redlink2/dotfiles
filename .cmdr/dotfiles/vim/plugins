@@ -1,0 +1,31 @@
+" vim-plugged "
+call plug#begin('~/.vim/plugged')
+Plug 'jremmen/vim-ripgrep'
+Plug 'vim-utils/vim-man'
+Plug 'mbbill/undotree'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'scrooloose/nerdcommenter'
+Plug 'jiangmiao/auto-pairs'
+Plug 'maxbrunsfeld/vim-yankstack'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'tomasr/molokai'
+Plug 'fmoralesc/molokayo'
+Plug 'cseelus/vim-colors-lucid'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-vinegar'
+Plug 'farmergreg/vim-lastplace'
+Plug 'mhinz/vim-startify'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'ap/vim-css-color'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'jdsimcoe/panic.vim'
+Plug 'flazz/vim-colorschemes'
+Plug 'felixhummel/setcolors.vim'
+" Plug 'valloric/youcompleteme'
+" Plug 'sheerun/vim-polyglot'
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'yggdroot/indentLine' "
+" Plug 'neoclide/coc.nvim', {'branch': 'release'} "
+call plug#end()
+

@@ -1,0 +1,56 @@
+
+" Personal Remaps
+" nnoremap <leader>h :wincmd h<CR> "
+" nnoremap <leader>j :wincmd j<CR> "
+" nnoremap <leader>k :wincmd k<CR> "
+" nnoremap <leader>l :wincmd l<CR> "
+
+"Shift + Tab does inverse tab"
+inoremap <S-Tab> <C-d>
+
+" source vimrc on ',``'
+nnoremap <leader>` :source $MYVIMRC<CR>
+
+"quicksave/quit with F2/F3"
+nnoremap <F2> :w<CR>
+nnoremap <F3> :q<CR>
+
+"Toggle highlighted search with F3
+set hlsearch!
+nnoremap <F10> :set hlsearch!<CR>
+
+" yanks from cursor to eol "
+noremap Y y$
+
+
+
+" Defaults / inits
+
+" Nvim
+"Enable mouse click for nvim
+set mouse=a
+"Fix cursor replacement after closing nvim"
+"set guicursor=a
+
+
+"NERDtree
+"NERDtree remaps"
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+"See invisible characters
+set list listchars=tab:>\ ,trail:+,eol:$
+
+
+"Deoplete init 
+"let g:deoplete#enable_at_startup = 1
+
+"enable indent-guides by default"
+let g:indent_guides_enable_on_vim_startup = 1
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=black
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
+
+"syntastic defaults"
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0

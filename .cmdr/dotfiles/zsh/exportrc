@@ -1,0 +1,36 @@
+# Core Export
+export PATH="$PATH:/home/redlink2/.cmdr"
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/exe"
+
+# PKGS
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/diff-so-fancy"
+export PATH="$PATH:/opt/firefox"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+# Frameworks
+
+# Python
+export PATH="$PATH:/usr/share/python3"
+export PATH="$PATH:/home/redlink2/.local/bin"
+export PATH="$PATH:/root/.local/bin"
+
+# Go
+#export GOBIN="/home/redlink2/.cmdr/pkgs/lang/go/bin"
+#export GOPATH="/home/redlink2/.cmdr/pkgs/lang/go"
+#export PATH="$PATH:/usr/local/go/bin"
+#export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/go/bin"
+
+# Node
+#export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/node.js/bin"
+#export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/node.js/"
+
+# Deno bin
+#export DENO_INSTALL="/home/redlink2/.deno"
+#export DENO_INSTALL="/home/redlink2/.deno"
+#export PATH="$PATH:/home/redlink2/.deno/bin/"
+
+# Rust
+# Cargo Bin
+export PATH="$PATH:/home/redlink2/.cargo/bin"
+export PATH="$PATH:/root/.cargo/bin"

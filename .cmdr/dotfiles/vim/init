@@ -1,0 +1,40 @@
+" sets "
+syntax on
+filetype on
+colorscheme molokai 
+set background=dark
+
+set mouse=a
+
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+set autoindent
+set smartindent
+set nowrap
+
+set incsearch
+set noerrorbells
+set relativenumber
+set number
+set nu
+set ruler
+set list
+
+
+" lets "
+
+" Color Column 80
+let &colorcolumn=80
+
+" Leader Key Assignment
+let mapleader = ","
+
+let g:rehash256 = 1

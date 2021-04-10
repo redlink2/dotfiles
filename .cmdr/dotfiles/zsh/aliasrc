@@ -1,0 +1,113 @@
+# Dotfiles Related
+alias zshrc="nvim /home/redlink2/.zshrc"
+alias aliasrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/aliasrc"
+alias funcrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/funcrc"
+alias trashrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/trashrc"
+alias zpluginrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/pluginrc"
+alias exportrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/exportrc"
+alias vimrc="nvim /home/redlink2/.config/nvim/init.vim"
+alias vimcolors="nvim /home/redlink2/.vim/plugged/setcolors.vim/plugin/setcolors.vim"
+alias sourcerc="sudo vim /etc/apt/sources.list"
+alias ali="cat ~/.cmdr/dotfiles/zsh/aliasrc"
+alias alias-locate="zsh -ixc : 2>&1 | grep"
+
+
+# SSH Related
+#Personal
+alias ogrl2="reset; ssh root@104.236.11.204"
+alias rl2="reset; ssh root@173.199.90.201"
+alias raspi3="reset; ssh root@10.0.0.22"
+alias sshchat="ssh ssh.chat"
+#Business
+alias chapman="reset; ssh pi@73.246.138.91"
+alias kob="kobkob"
+alias kobkob="reset; ssh root@161.35.4.161"
+alias k0b="reset; ssh root@64.227.17.43"
+alias iwd="reset; ssh root@104.207.139.28"
+alias oiwd="reset; ssh root@157.230.48.116"
+#Deprecated
+#alias lineage="reset; ssh u0_a194@10.0.0.82 -p 8022"
+
+
+#SSH MountPoints
+alias rl2mount="sshfs root@173.199.90.201:/ /home/redlink2/cmd/dev/webdev/redlink2.com/live"
+alias rl2umount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/redlink2.com/live"
+
+alias ogrl2mount="sshfs root@104.236.11.204:/var/www/redlink2.com/ /home/redlink2/cmd/dev/webdev/redlink2.com/ogrl2"
+alias ogrl2umount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/redlink2.com/ogrl2"
+
+alias kobmount="sshfs root@161.35.4.161:/var/www/massivekobkob.com/ /home/redlink2/cmd/dev/webdev/massivekobkob.com/kob"
+alias kobumount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/massivekobkob.com/kob"
+
+alias chapmount="sshfs pi@73.246.138.91:/ /home/redlink2/cmd/mount/chapman"
+alias chapumount="sudo fusermount -u /home/redlink2/cmd/mount/chapman"
+
+alias iwdmount="sshfs root@104.207.139.28:/var/www/iwannadie.fan/ /home/redlink2/cmd/dev/webdev/iwannadie.fan/live"
+alias iwdumount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/iwannadie.fan/live"
+
+
+# PKG Managers
+alias apts="sudo apt-get install"
+alias apti="sudo aptitude"
+alias cloner="git clone"
+alias dpkgstatus="sudo nvim /var/lib/dpkg/status"
+alias dpkgrecent="grep installed /var/log/dpkg.log"
+alias installer="sudo dpkg -i"
+alias pipr="sudo /usr/bin/python3 -m pip"
+alias pip="pipx"
+alias snpm="sudo npm install"
+
+
+# GIT CTL
+alias dgit="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
+
+# Quick CMDS
+alias cl="clear"
+alias lsd="hr --string=~!~# --colour-fg=red-bright; ls -a --color=auto; hr --string=~!~# --colour-fg=cyan-bright;"
+alias reboot="sudo reboot"
+alias rr="source ~/.zshrc"
+alias rb="source ~/.zshrc; reset;"
+alias rbs="reset"
+alias shutdown="sudo shutdown now"
+alias sudo='sudo '
+alias suwoo="sudo su -"
+alias vol="pactl set-sink-volume @DEFAULT_SINK@"
+
+
+# Jump CMDS
+alias ~="cd ~/"
+alias clonedir="cd ~/.cmdr/pkgs/cloner"
+alias cmdr="cd ~/.cmdr/pkgs"
+alias noter="cd ~/cmd/dev/noter"
+alias webdev="cd ~/cmd/dev/webdev"
+
+
+# PKG CMDS
+alias curl="curl --output - "
+alias diff="delta --dark --diff-so-fancy --navigate --line-numbers --hyperlinks"
+alias ipconfig="hostname -I; hr; myip"
+alias pipes="pipes.sh -r 0"
+#alias python="python3"
+alias systctl="fuzzy-sys"
+alias top="bpytop"
+alias wayorx11="loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}'"
+alias ytdl="youtube-dl"
+#alias fzfvim="vim $(fzf)"
+
+
+# Curlrs
+alias moon="curl wttr.in/Moon"
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias news="curl getnews.tech/sources"
+alias party="curl parrot.live"
+alias path='echo -e ${PATH//:/\\n}'
+alias rand="sudo dd if=/dev/mem | cat | strings"
+alias rds="cat /dev/urandom | strings"
+alias telehack="telnet telehack.com"
+alias unlocker="fuser -k"
+alias weather="curl v2.wttr.in/Chicago"
+alias wintree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'"
+
+
+# Kitty CMDS
+alias tear="kitty @new-window"
