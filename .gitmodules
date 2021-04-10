@@ -1,0 +1,3 @@
+[submodule "auto-pairs"]
+	path = auto-pairs
+	url = /home/redlink2/.vim/plugged/auto-pairs
