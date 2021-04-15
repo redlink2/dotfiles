@@ -1,14 +1,14 @@
 # Dotfiles Related
-alias zshrc="nvim /home/redlink2/.zshrc"
-alias aliasrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/aliasrc"
-alias funcrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/funcrc"
-alias trashrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/trashrc"
-alias zpluginrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/pluginrc"
-alias exportrc="nvim /home/redlink2/.cmdr/dotfiles/zsh/exportrc"
-alias vimrc="nvim /home/redlink2/.config/nvim/init.vim"
-alias vimcolors="nvim /home/redlink2/.vim/plugged/setcolors.vim/plugin/setcolors.vim"
+alias zshrc="nvim $HOME/.zshrc"
+alias aliasrc="nvim $HOME/.cmdr/dotfiles/zsh/aliasrc"
+alias funcrc="nvim $HOME/.cmdr/dotfiles/zsh/funcrc"
+alias trashrc="nvim $HOME/.cmdr/dotfiles/zsh/trashrc"
+alias zpluginrc="nvim $HOME/.cmdr/dotfiles/zsh/pluginrc"
+alias exportrc="nvim $HOME/.cmdr/dotfiles/zsh/exportrc"
+alias vimrc="nvim $HOME/.config/nvim/init.vim"
+alias vimcolors="nvim $HOME/.vim/plugged/setcolors.vim/plugin/setcolors.vim"
 alias sourcerc="sudo vim /etc/apt/sources.list"
-alias ali="cat ~/.cmdr/dotfiles/zsh/aliasrc"
+alias ali="cat $HOME/.cmdr/dotfiles/zsh/aliasrc"
 alias alias-locate="zsh -ixc : 2>&1 | grep"
 
 
@@ -30,20 +30,20 @@ alias oiwd="reset; ssh root@157.230.48.116"
 
 
 #SSH MountPoints
-alias rl2mount="sshfs root@45.76.28.108:/ /home/redlink2/cmd/dev/webdev/redlink2.com/live"
-alias rl2umount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/redlink2.com/live"
+alias rl2mount="sshfs root@45.76.28.108:/ $HOME/cmd/dev/webdev/redlink2.com/live"
+alias rl2umount="sudo fusermount -u $HOME/cmd/dev/webdev/redlink2.com/live"
 
-alias ogrl2mount="sshfs root@104.236.11.204:/var/www/redlink2.com/ /home/redlink2/cmd/dev/webdev/redlink2.com/ogrl2"
-alias ogrl2umount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/redlink2.com/ogrl2"
+alias ogrl2mount="sshfs root@104.236.11.204:/var/www/redlink2.com/ $HOME/cmd/dev/webdev/redlink2.com/ogrl2"
+alias ogrl2umount="sudo fusermount -u $HOME/cmd/dev/webdev/redlink2.com/ogrl2"
 
-alias kobmount="sshfs root@161.35.4.161:/var/www/massivekobkob.com/ /home/redlink2/cmd/dev/webdev/massivekobkob.com/kob"
-alias kobumount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/massivekobkob.com/kob"
+alias kobmount="sshfs root@161.35.4.161:/var/www/massivekobkob.com/ $HOME/cmd/dev/webdev/massivekobkob.com/kob"
+alias kobumount="sudo fusermount -u $HOME/cmd/dev/webdev/massivekobkob.com/kob"
 
-alias chapmount="sshfs pi@73.246.138.91:/ /home/redlink2/cmd/mount/chapman"
-alias chapumount="sudo fusermount -u /home/redlink2/cmd/mount/chapman"
+alias chapmount="sshfs pi@73.246.138.91:/ $HOME/cmd/mount/chapman"
+alias chapumount="sudo fusermount -u $HOME/cmd/mount/chapman"
 
-alias iwdmount="sshfs root@104.207.139.28:/var/www/iwannadie.fan/ /home/redlink2/cmd/dev/webdev/iwannadie.fan/live"
-alias iwdumount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/iwannadie.fan/live"
+alias iwdmount="sshfs root@104.207.139.28:/var/www/iwannadie.fan/ $HOME/cmd/dev/webdev/iwannadie.fan/live"
+alias iwdumount="sudo fusermount -u $HOME/cmd/dev/webdev/iwannadie.fan/live"
 
 
 # PKG Managers
