@@ -15,7 +15,7 @@ alias alias-locate="zsh -ixc : 2>&1 | grep"
 # SSH Related
 #Personal
 alias ogrl2="reset; ssh root@104.236.11.204"
-alias rl2="reset; ssh root@173.199.90.201"
+alias rl2="reset; ssh root@45.76.28.108"
 alias raspi3="reset; ssh root@10.0.0.22"
 alias sshchat="ssh ssh.chat"
 #Business
@@ -30,7 +30,7 @@ alias oiwd="reset; ssh root@157.230.48.116"
 
 
 #SSH MountPoints
-alias rl2mount="sshfs root@173.199.90.201:/ /home/redlink2/cmd/dev/webdev/redlink2.com/live"
+alias rl2mount="sshfs root@45.76.28.108:/ /home/redlink2/cmd/dev/webdev/redlink2.com/live"
 alias rl2umount="sudo fusermount -u /home/redlink2/cmd/dev/webdev/redlink2.com/live"
 
 alias ogrl2mount="sshfs root@104.236.11.204:/var/www/redlink2.com/ /home/redlink2/cmd/dev/webdev/redlink2.com/ogrl2"
@@ -86,6 +86,7 @@ alias webdev="cd ~/cmd/dev/webdev"
 alias curl="curl --output - "
 alias diff="delta --dark --diff-so-fancy --navigate --line-numbers --hyperlinks"
 alias ipconfig="hostname -I; hr; myip"
+alias notebook="nb"
 alias pipes="pipes.sh -r 0"
 #alias python="python3"
 alias systctl="fuzzy-sys"

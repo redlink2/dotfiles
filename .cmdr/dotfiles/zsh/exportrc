@@ -5,6 +5,8 @@ export PATH="$PATH:/home/redlink2/.cmdr/pkgs/exe"
 # PKGS
 export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/diff-so-fancy"
 export PATH="$PATH:/opt/firefox"
+export PATH="$PATH:/opt/neovide"
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/termpdf.py/"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
@@ -16,10 +18,10 @@ export PATH="$PATH:/home/redlink2/.local/bin"
 export PATH="$PATH:/root/.local/bin"
 
 # Go
-#export GOBIN="/home/redlink2/.cmdr/pkgs/lang/go/bin"
-#export GOPATH="/home/redlink2/.cmdr/pkgs/lang/go"
-#export PATH="$PATH:/usr/local/go/bin"
-#export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/go/bin"
+export GOBIN="/home/redlink2/.cmdr/pkgs/lang/go/bin"
+export GOPATH="/home/redlink2/.cmdr/pkgs/lang/go"
+export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/go/bin"
 
 # Node
 #export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/node.js/bin"
@@ -34,3 +36,7 @@ export PATH="$PATH:/root/.local/bin"
 # Cargo Bin
 export PATH="$PATH:/home/redlink2/.cargo/bin"
 export PATH="$PATH:/root/.cargo/bin"
+
+
+# Firefox touchscreen enable
+MOZ_USE_XINPUT2=1
