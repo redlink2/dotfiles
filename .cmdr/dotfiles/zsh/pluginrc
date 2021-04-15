@@ -39,31 +39,31 @@ plugins=(
 )
 
 # fancy ctrl z x2
-source /home/redlink2/.oh-my-zsh/custom/plugins/fancy-ctrl-z/fancy-ctrl-z.zsh
+source $HOME/.oh-my-zsh/custom/plugins/fancy-ctrl-z/fancy-ctrl-z.zsh
 
 # dotbare dotfilesfzf
-source /home/redlink2/.oh-my-zsh/custom/plugins/dotbare/dotbare.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/dotbare/dotbare.plugin.zsh
 
 # emoji fzf
-source /home/redlink2/.oh-my-zsh/custom/plugins/emoji-fzf.zsh/emoji-fzf.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/emoji-fzf.zsh/emoji-fzf.plugin.zsh
 
 # colors for zsh
-source /home/redlink2/.oh-my-zsh/custom/plugins/colors1/colors.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/colors1/colors.plugin.zsh
 
 # copyzshell
-source /home/redlink2/.oh-my-zsh/custom/plugins/copyzshell/copyzshell.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/copyzshell/copyzshell.plugin.zsh
 
 # clipboard = pbcopy/paste / clip
-source /home/redlink2/.oh-my-zsh/custom/plugins/clipboard/clipboard.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/clipboard/clipboard.plugin.zsh
 
 # calculator = 
-source /home/redlink2/.oh-my-zsh/custom/plugins/calc.plugin.zsh/calc.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/calc.plugin.zsh/calc.plugin.zsh
 
 # 256color
-source /home/redlink2/.oh-my-zsh/custom/plugins/zsh-256color/zsh-256color.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/zsh-256color/zsh-256color.plugin.zsh
 
 # alias-tips
-source /home/redlink2/.oh-my-zsh/custom/plugins/alias-tips/alias-tips.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/alias-tips/alias-tips.plugin.zsh
 
 # nullsense/fuzzy-sys
-source /home/redlink2/.cmdr/pkgs/cloner/fuzzy-sys/fuzzy-sys.plugin.zsh
+source $HOME/.cmdr/pkgs/cloner/fuzzy-sys/fuzzy-sys.plugin.zsh
