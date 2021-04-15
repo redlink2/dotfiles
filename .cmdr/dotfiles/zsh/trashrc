@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 GENCOMPL_FPATH=$HOME/.oh-my-zsh/custom/plugins/zsh-completion-generator/.complete
-source /home/redlink2/.oh-my-zsh/custom/plugins/zsh-completion-generator/zsh-completion-generator.plugin.zsh
+source $HOME/.oh-my-zsh/custom/plugins/zsh-completion-generator/zsh-completion-generator.plugin.zsh
 
 autoload -U bashcompinit
 bashcompinit
