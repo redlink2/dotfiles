@@ -5,7 +5,8 @@ alias funcrc="nvim $HOME/.cmdr/dotfiles/zsh/funcrc"
 alias trashrc="nvim $HOME/.cmdr/dotfiles/zsh/trashrc"
 alias zpluginrc="nvim $HOME/.cmdr/dotfiles/zsh/pluginrc"
 alias exportrc="nvim $HOME/.cmdr/dotfiles/zsh/exportrc"
-alias vimrc="nvim $HOME/.config/nvim/init.vim"
+alias nvimrc="nvim $HOME/.config/nvim/init.vim"
+alias vimrc="nvim $HOME/.cmdr/dotfiles/vim/"
 alias vimcolors="nvim $HOME/.vim/plugged/setcolors.vim/plugin/setcolors.vim"
 alias sourcerc="sudo vim /etc/apt/sources.list"
 alias ali="cat $HOME/.cmdr/dotfiles/zsh/aliasrc"
@@ -14,9 +15,9 @@ alias alias-locate="zsh -ixc : 2>&1 | grep"
 
 # SSH Related
 #Personal
-alias ogrl2="reset; ssh root@104.236.11.204"
+alias eden="reset; ssh root@104.236.11.204"
 alias rl2="reset; ssh root@45.76.28.108"
-alias raspi3="reset; ssh root@10.0.0.22"
+alias raspi="reset; ssh root@10.0.0.22"
 alias sshchat="ssh ssh.chat"
 #Business
 alias chapman="reset; ssh pi@73.246.138.91"
@@ -30,7 +31,7 @@ alias oiwd="reset; ssh root@157.230.48.116"
 
 
 #SSH MountPoints
-alias rl2mount="sshfs root@45.76.28.108:/ $HOME/cmd/dev/webdev/redlink2.com/live"
+alias rl2mount="sshfs root@45.76.28.108:/var/www/redlink2.com/ $HOME/cmd/dev/webdev/redlink2.com/live"
 alias rl2umount="sudo fusermount -u $HOME/cmd/dev/webdev/redlink2.com/live"
 
 alias ogrl2mount="sshfs root@104.236.11.204:/var/www/redlink2.com/ $HOME/cmd/dev/webdev/redlink2.com/ogrl2"
@@ -50,12 +51,14 @@ alias iwdumount="sudo fusermount -u $HOME/cmd/dev/webdev/iwannadie.fan/live"
 alias apts="sudo apt-get install"
 alias apti="sudo aptitude"
 alias cloner="git clone"
-alias dpkgstatus="sudo nvim /var/lib/dpkg/status"
+alias dpkgstatus="sudo vim /var/lib/dpkg/status"
 alias dpkgrecent="grep installed /var/log/dpkg.log"
 alias installer="sudo dpkg -i"
 alias pipr="sudo /usr/bin/python3 -m pip"
 alias pip="pipx"
 alias snpm="sudo npm install"
+
+alias vpkgs="vim ~/.cmdr/pkgs/pkgs"
 
 
 # GIT CTL
@@ -63,7 +66,7 @@ alias dgit="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
 
 # Quick CMDS
 alias cl="clear"
-alias lsd="hr --string=~!~# --colour-fg=red-bright; ls -a --color=auto; hr --string=~!~# --colour-fg=cyan-bright;"
+alias lsa="hr --string=~!~# --colour-fg=red-bright; ls -a --color=auto; hr --string=~!~# --colour-fg=cyan-bright;"
 alias reboot="sudo reboot"
 alias rr="source ~/.zshrc"
 alias rb="source ~/.zshrc; reset;"
@@ -83,6 +86,7 @@ alias webdev="cd ~/cmd/dev/webdev"
 
 
 # PKG CMDS
+alias cat="batcat"
 alias curl="curl --output - "
 alias diff="delta --dark --diff-so-fancy --navigate --line-numbers --hyperlinks"
 alias ipconfig="hostname -I; hr; myip"

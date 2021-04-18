@@ -12,6 +12,7 @@ inoremap <S-Tab> <C-d>
 nnoremap <leader>` :source $MYVIMRC<CR>
 
 "quicksave/quit with F2/F3"
+nnoremap <F1> :wq<CR>
 nnoremap <F2> :w<CR>
 nnoremap <F3> :q<CR>
 

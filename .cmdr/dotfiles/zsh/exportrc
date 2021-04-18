@@ -4,6 +4,8 @@ export PATH="$PATH:/home/redlink2/.cmdr/pkgs/exe"
 
 # PKGS
 export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/diff-so-fancy"
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/foxsay"
+export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/grit"
 export PATH="$PATH:/opt/firefox"
 export PATH="$PATH:/opt/neovide"
 export PATH="$PATH:/home/redlink2/.cmdr/pkgs/cloner/termpdf.py/"
@@ -36,6 +38,7 @@ export PATH="$PATH:/home/redlink2/.cmdr/pkgs/lang/go/bin"
 # Cargo Bin
 export PATH="$PATH:/home/redlink2/.cargo/bin"
 export PATH="$PATH:/root/.cargo/bin"
+export PATH="$PATH:$PATH/.cargo/env"
 
 
 # Firefox touchscreen enable
