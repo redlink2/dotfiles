@@ -62,7 +62,10 @@ alias vpkgs="vim ~/.cmdr/pkgs/pkgs"
 
 
 # GIT CTL
-alias dgit="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
+alias cx="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
+alias cxdel="rm -rf $HOME/.cmdr/git/dotfiles"
+alias cxclone="git clone --bare https://github.com/redlink2/dotfiles $HOME/.cmdr/git/dotfiles"
+alias cxcheck="cx checkout -f"
 
 # Quick CMDS
 alias cl="clear"
