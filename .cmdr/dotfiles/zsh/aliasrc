@@ -82,7 +82,7 @@ alias ~="cd ~/"
 alias clonedir="cd ~/.cmdr/pkgs/cloner"
 alias cmdr="cd ~/.cmdr/pkgs"
 alias noter="cd ~/cmd/dev/noter"
-alias webdev="cd ~/cmd/dev/webdev"
+alias webdev="nvim ~/cmd/dev/webdev"
 
 
 # PKG CMDS
@@ -92,12 +92,11 @@ alias diff="delta --dark --diff-so-fancy --navigate --line-numbers --hyperlinks"
 alias ipconfig="hostname -I; hr; myip"
 alias notebook="nb"
 alias pipes="pipes.sh -r 0"
-#alias python="python3"
 alias systctl="fuzzy-sys"
 alias top="bpytop"
 alias wayorx11="loginctl show-session $(awk '/tty/ {print $1}' <(loginctl)) -p Type | awk -F= '{print $2}'"
 alias ytdl="youtube-dl"
-#alias fzfvim="vim $(fzf)"
+#alias z="zoxide"
 
 
 # Curlrs

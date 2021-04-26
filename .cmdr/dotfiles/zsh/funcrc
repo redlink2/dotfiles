@@ -47,3 +47,9 @@ fi
 }
 
 IFS=$SAVEIFS
+
+
+
+
+# Zoxide source
+#source ~/.cmdr/dotfiles/zsh/funcs/zoxide
