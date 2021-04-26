@@ -69,4 +69,4 @@ source $HOME/.oh-my-zsh/custom/plugins/alias-tips/alias-tips.plugin.zsh
 source $HOME/.cmdr/pkgs/cloner/fuzzy-sys/fuzzy-sys.plugin.zsh
 
 # K (git alias)
-source $HOME/.cmdr/pkgs/cloner/k/k.plugin.zsh
+#source $HOME/.cmdr/pkgs/cloner/k/k.plugin.zsh
