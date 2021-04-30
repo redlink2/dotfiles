@@ -86,6 +86,7 @@ alias clonedir="cd ~/.cmdr/pkgs/cloner"
 alias cmdr="cd ~/.cmdr/pkgs"
 alias noter="cd ~/cmd/dev/noter"
 alias webdev="nvim ~/cmd/dev/webdev"
+alias working="nvim ~/cmd/working"
 
 
 # PKG CMDS

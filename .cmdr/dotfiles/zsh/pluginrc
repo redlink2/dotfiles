@@ -70,3 +70,6 @@ source $HOME/.cmdr/pkgs/cloner/fuzzy-sys/fuzzy-sys.plugin.zsh
 
 # K (git alias)
 #source $HOME/.cmdr/pkgs/cloner/k/k.plugin.zsh
+
+# Fresh for dotfiles
+source $HOME/.fresh/build/shell.sh
