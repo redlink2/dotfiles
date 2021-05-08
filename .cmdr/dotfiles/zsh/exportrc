@@ -42,4 +42,4 @@ export PATH="$PATH:$PATH/.cargo/env"
 
 
 # Firefox touchscreen enable
-MOZ_USE_XINPUT2=1
+export MOZ_USE_XINPUT2=1

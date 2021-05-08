@@ -73,3 +73,6 @@ source $HOME/.cmdr/pkgs/cloner/fuzzy-sys/fuzzy-sys.plugin.zsh
 
 # Fresh for dotfiles
 source $HOME/.fresh/build/shell.sh
+
+# thefuck alias
+eval $(thefuck --alias)
