@@ -36,6 +36,7 @@ plugins=(
 	colors
 	emoji-fzf
     oh-my-matrix
+    zsh-syntax-highlighting
 )
 
 # fancy ctrl z x2
@@ -76,3 +77,7 @@ source $HOME/.fresh/build/shell.sh
 
 # thefuck alias
 eval $(thefuck --alias)
+
+# source zsh-syntax-highlighting for fish like highlights
+#source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.cmdr/pkgs/cloner/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
