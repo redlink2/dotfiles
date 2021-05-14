@@ -18,7 +18,7 @@ alias alias-locate="zsh -ixc : 2>&1 | grep"
 alias eden="reset; ssh root@104.236.11.204"
 alias rl2="reset; ssh root@45.76.28.108"
 alias raspi="reset; ssh root@10.0.0.22"
-alias rcloud="reset; ssh root@104.207.138.40"
+alias rcloud="reset; ssh root@45.76.19.31"
 alias sshchat="ssh ssh.chat"
 #Business
 alias chapman="reset; ssh pi@73.246.138.91"
