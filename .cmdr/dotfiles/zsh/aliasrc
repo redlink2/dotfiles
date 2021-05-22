@@ -81,13 +81,29 @@ alias suwoo="sudo su -"
 alias vol="pactl set-sink-volume @DEFAULT_SINK@"
 
 
-# Jump CMDS
+# ZX Jump CMDs
+alias zxwebdev="cd ~/cmd/dev/webdev"
+alias zxcmdr="cd ~/.cmdr"
+alias zxcmd="cd ~/cmd"
+alias zxclone="cd ~/.cmdr/pkgs/cloner"
+alias zxnoter="cd ~/cmd/dev/noter"
+alias zxworking="cd ~/cmd/working"
+alias zxpkgs"cd ~/.cmdr/pkgs"
+alias zxdotzsh"cd ~/.cmdr/dotfiles/zsh"
+alias zxdotvim="cd ~/.cmdr/dotfiles/vim"
 alias ~="cd ~/"
-alias clonedir="cd ~/.cmdr/pkgs/cloner"
-alias cmdr="cd ~/.cmdr/pkgs"
-alias noter="cd ~/cmd/dev/noter"
-alias webdev="nvim ~/cmd/dev/webdev"
-alias working="nvim ~/cmd/working"
+
+# Vim eXplorer CMDs 
+alias vxwebdev="nvim ~/cmd/dev/webdev"
+alias vxcmdr="nvim ~/.cmdr"
+alias vxcmd="nvim ~/cmd"
+alias vxclone="nvim ~/.cmdr/pkgs/cloner"
+alias vxnoter="nvim ~/cmd/dev/noter"
+alias vxworking="nvim ~/cmd/working"
+alias vxpkgs"nvim ~/.cmdr/pkgs"
+alias vxdotzsh"nvim ~/.cmdr/dotfiles/zsh"
+alias vxdotvim="nvim ~/.cmdr/dotfiles/vim"
+alias ~="nvim ~/"
 
 
 # PKG CMDS
