@@ -62,9 +62,11 @@ alias snpm="sudo npm install"
 alias vpkgs="vim ~/.cmdr/pkgs/pkgs"
 
 # NPM CMDs
-alias npbegin="npm init"
+alias npbegin="npm init @vitejs/app"
 alias npstart="npm install"
 alias npopen="npm run dev"
+# NPM PKGS scheme=[npstartw="np(m) start w(ith) $APPNAME"]
+alias npstartw3="npm install three"
 
 # GIT CTL
 alias cx="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
