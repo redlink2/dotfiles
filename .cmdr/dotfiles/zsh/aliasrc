@@ -61,14 +61,21 @@ alias snpm="sudo npm install"
 
 alias vpkgs="vim ~/.cmdr/pkgs/pkgs"
 
+# NPM CMDs
+alias npbegin="npm init"
+alias npstart="npm install"
+alias npopen="npm run dev"
 
 # GIT CTL
 alias cx="/usr/bin/git --git-dir=$HOME/.cmdr/git/dotfiles --work-tree=$HOME"
 alias cxdel="rm -rf $HOME/.cmdr/git/dotfiles"
 alias cxclone="git clone --bare https://github.com/redlink2/dotfiles $HOME/.cmdr/git/dotfiles"
 alias cxcheck="cx checkout -f"
+alias cxstatus="cx status"
+alias cxalias="cx add ~/.cmdr/dotfiles/zsh/aliasrc"
+alias cxpush="cx push"
 
-# Quick CMDS
+# Quick CMDs
 alias cl="clear"
 alias lsa="hr --string=~!~# --colour-fg=red-bright; ls -a --color=auto; hr --string=~!~# --colour-fg=cyan-bright;"
 alias reboot="sudo reboot"
@@ -106,7 +113,7 @@ alias vxdotvim="nvim ~/.cmdr/dotfiles/vim"
 alias ~="nvim ~/"
 
 
-# PKG CMDS
+# PKG CMDs
 alias cat="batcat"
 alias cbonsai="cbonsai -S -L 64 -m reddlink2"
 alias curl="curl --output - "
@@ -137,5 +144,5 @@ alias weather="curl v2.wttr.in/Chicago"
 alias wintree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'"
 
 
-# Kitty CMDS
+# Kitty CMDs
 alias tear="kitty @new-window"
