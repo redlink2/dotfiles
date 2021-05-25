@@ -52,14 +52,14 @@ alias iwdumount="sudo fusermount -u $HOME/cmd/dev/webdev/iwannadie.fan/live"
 alias apts="sudo apt-get install"
 alias apti="sudo aptitude"
 alias cloner="git clone"
-alias dpkgstatus="sudo vim /var/lib/dpkg/status"
+alias dpkgstatus="sudo nvim /var/lib/dpkg/status"
 alias dpkgrecent="grep installed /var/log/dpkg.log"
 alias installer="sudo dpkg -i"
 alias pipr="sudo /usr/bin/python3 -m pip"
 alias pip="pipx"
 alias snpm="sudo npm install"
 
-alias vpkgs="vim ~/.cmdr/pkgs/pkgs"
+alias vpkgs="nvim ~/.cmdr/pkgs/pkgs"
 
 # NPM CMDs
 alias npbegin="npm init @vitejs/app"
