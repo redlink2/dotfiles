@@ -16,6 +16,13 @@ nnoremap <F1> :wq<CR>
 nnoremap <F2> :w<CR>
 nnoremap <F3> :q<CR>
 
+"reload current doc for changes"
+nnoremap <F4> :edit<CR>
+
+"quick nav the buffer with F5/F6"
+nnoremap <F5> :blast<CR>
+nnoremap <F6> :bnext<CR>
+
 "Toggle highlighted search with F3
 set hlsearch!
 nnoremap <F10> :set hlsearch!<CR>
